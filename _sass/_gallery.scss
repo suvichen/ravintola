@@ -1,0 +1,32 @@
+.gallery{
+  background-color: #C1C1C1;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.gallery__wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gallery__item {
+  width: 50%;
+  float: left;
+  position: relative;
+  padding: 5px;
+}
+
+.gallery__image {
+  height: 220px;
+  overflow: hidden;
+}
+
+.gallery__title {
+  position: absolute;
+  bottom: 10px;
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+  right: 20px;
+  opacity: 0.8;
+}
