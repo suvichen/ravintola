@@ -4,7 +4,7 @@ logo: Logo
 address: Esterinportti 2, 00240 Helsinki
 phone: Puh. 010 76 8011
 open_hours: arkisin klo 8.00-17.00
-open_hours2: Sa klo 9:00-21.00, Su klo 10-21.00
+open_hours2: La klo 9:00-21.00, Su klo 10-21.00
 baseurl: "/ravintola" # the subpath of your site, e.g. /blog/
 url: "http://suvichen.github.io/ravintola" # the base hostname & protocol for your site
 twitter_username: kesakissa
