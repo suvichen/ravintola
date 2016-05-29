@@ -2,9 +2,9 @@
 title: 华隆酒楼 Food House
 logo: Logo
 address: Esterinportti 2, 00240 Helsinki
-phone: Puh. 010 76 8011
+phone: Puh. 0469390358
 open_hours: arkisin klo 9.00-21.00
-open_hours2: La-Su klo 11:00-21.00
+open_hours2: La klo 11:00-21.00, Su Suljettu
 #baseurl: "/ravintola" # the subpath of your site, e.g. /blog/
 baseurl: "http://www.foodhouse.fi/" # the subpath of your site, e.g. /blog/
 url: "http://suvichen.github.io/ravintola" # the base hostname & protocol for your site
