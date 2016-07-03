@@ -1025,3 +1025,64 @@ footer .tm {
   left: 40px;
   width: 100px;
 }
+
+.new-logo-sub-page {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.active-navi {
+  color: #fff;
+  cursor: default;
+}
+
+.menu-section {
+  padding-top: 70px;
+}
+
+.menu-wrapper {
+  margin-top: -20px;
+}
+
+.menu-table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* @media (max-width: 767px) {
+ */  .menu-table-dash {
+    display: none;
+  }
+/* } */
+
+@media (max-width: 979px) {
+
+}
+
+.menu-table-name {
+  font-size: 20px;
+  padding: 10px;
+  line-height: 1.2;
+}
+
+.menu-table-price {
+  font-size: 18px;
+  padding: 10px;
+  width: 70px;
+}
+
+.menu-headline {
+  color: #823f3f;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.menu-table-jouma-name {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.menu-table-volumn {
+  font-style: italic;
+}
