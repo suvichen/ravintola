@@ -1,80 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Menu</title>
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no"/>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/style.css">
+<html lang="fi">
 
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.2.1.js"></script>
+  {% include head.html %}
 
-    <!--[if lt IE 9]>
-    <html class="lt-ie9">
-    <div style=' clear: both; text-align:center; position: relative;'>
-        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
-            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
-                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
-        </a>
+  <body>
+
+    <!-- {% include header.html %} -->
+
+    <div class="page-content">
+      {% include components/hero/markup.html %}
+      {% include components/gallery/markup.html %}
+      {% include components/campaign/markup.html %}
+
+      <div class="wrapper">
+        {{ content }}
+      </div>
     </div>
-    <script src="js/html5shiv.js"></script>
-    <![endif]-->
 
-    <script src='js/device.min.js'></script>
-</head>
+    {% include footer.html %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<body>
-<div class="page">
-    <!--========================================================
-                              HEADER
-    =========================================================-->
-    <header>
+      ga('create', 'UA-75783011-1', 'auto');
+      ga('send', 'pageview');
 
-        <div id="stuck_container" class="stuck_container">
-            <div class="container">
+    </script>
+  </body>
 
-                <div class="brand">
-                  <img src="images/logo.png" alt="logo" class="new-logo-sub-page"/>
-                    <h1 class="brand_name">
-                        <a href="./">Ravintola Foodhouse</a>
-                    </h1>
-                </div>
-                {% include new/nav.html %}
-            </div>
-        </div>
-
-    </header>
-    <!--========================================================
-                              CONTENT
-    =========================================================-->
-    <main>
-        <section class="well well__offset-3">
-            <div class="container">
-                <h2><em>Ruokalista</em></h2>
-                <div class="row box-2 menu-wrapper">
-                  {% include new/starter.html %}
-                  {% include new/haranliharuokia.html %}
-                  {% include new/porsaanliharuokia.html %}
-                  {% include new/kanaruokia.html %}
-                  {% include new/ankkaruokia.html %}
-                  {% include new/kasvisruokia.html %}
-                  {% include new/riisiajanuudeleita.html %}
-                  {% include new/jalkiruokia.html %}
-                  {% include new/juoma.html %}
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!--========================================================
-                              FOOTER
-    =========================================================-->
-    {% include new/footer.html %}
-
-</div>
-
-<script src="js/script.js"></script>
-</body>
 </html>
