@@ -1086,3 +1086,7 @@ footer .tm {
 .menu-table-volumn {
   font-style: italic;
 }
+
+.menu-gallery-pic {
+  padding-bottom: 100% !important;
+}
