@@ -1090,3 +1090,17 @@ footer .tm {
 .menu-gallery-pic {
   padding-bottom: 100% !important;
 }
+
+.sushi-description {
+  padding-left: 40px;
+  font-style: italic;
+}
+
+.sushi-item {
+  clear: both;
+}
+
+.sushi-description li {
+  float: left;
+  padding-right: 20px;
+}
